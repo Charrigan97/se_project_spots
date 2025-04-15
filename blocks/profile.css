@@ -17,16 +17,51 @@
 
 .profile__name {
   margin: 0;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
 }
 
 .profile__description {
-  margin: 0;
+  margin: 12px 0 0 0;
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 1;
+  opacity: 70%;
 }
 
 .profile__edit-btn {
+  all: unset;
   margin-top: auto;
+  opacity: 70%;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  display: flex;
 }
 
+
+
 .profile__add-btn {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #212121;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
   margin-left: auto;
+  margin-top: auto;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
 }

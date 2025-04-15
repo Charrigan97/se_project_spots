@@ -1,0 +1,26 @@
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    max-width: 282px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile__avatar {
+    margin-right: 0;
+    height: 80px;
+    width: 80px;
+  }
+
+  .profile__edit-btn {
+    margin: 0;
+  }
+
+  .profile__add-btn {
+    margin: 0;
+  }
+
+  .profile__name {
+    font-size: 20px;
+  }
+}
