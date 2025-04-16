@@ -13,10 +13,12 @@
   }
 
   .profile__edit-btn {
+    align-self: center;
     margin: 0;
   }
 
   .profile__add-btn {
+    align-self: center;
     margin: 0;
   }
 
