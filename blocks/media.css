@@ -1,15 +1,31 @@
 @media screen and (max-width: 627px) {
+
   .profile {
     flex-direction: column;
     max-width: 282px;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
   }
 
   .profile__avatar {
     margin-right: 0;
+    margin-bottom: 12px;
     height: 80px;
     width: 80px;
+  }
+
+  .profile__name {
+    font-style: 20px;
+    margin: 0 0 6px;
+  }
+
+  .profile__column {
+    margin: 0 0 20px;
+  }
+
+  .profile__description {
+    margin: 0 0 32px;
   }
 
   .profile__edit-btn {
@@ -19,7 +35,11 @@
 
   .profile__add-btn {
     align-self: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
+    width: 100%;
   }
 
   .profile__name {
