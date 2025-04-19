@@ -1,7 +1,7 @@
 .profile {
   display: flex;
   padding: 34px 0 20px;
-  border-bottom: 1px rgba(33, 33, 33, 0.40) solid;
+  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
 }
 
 .profile__avatar {
@@ -54,10 +54,7 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
-  display: flex;
 }
-
-
 
 .profile__add-btn {
   all: unset;
@@ -74,9 +71,7 @@
   transition: background-color 0.2s ease;
   margin-left: auto;
   margin-top: auto;
-  font-size: 16px;
   line-height: 1;
-  font-weight: 500;
-  height:  52px;
+  height: 52px;
   width: 149px;
 }
