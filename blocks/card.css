@@ -1,18 +1,18 @@
 .card {
   max-width: 413px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin: 0 auto;
 }
 
 .card__image {
-  max-height: 445px;
-  width: 100%;
-  /* width: 413px; */
+  /* max-height: 445px; */
+  height: 413px;
+  width: 413px;
   object-fit: cover;
   display: block;
   border-radius: 12px;
 }
 
-.card__image
 
 .card__content {
   display: flex;
