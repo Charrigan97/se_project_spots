@@ -1,18 +1,15 @@
 .card {
   max-width: 413px;
-  /* margin-top: 20px; */
   margin: 0 auto;
 }
 
 .card__image {
-  /* max-height: 445px; */
   height: 413px;
   width: 413px;
   object-fit: cover;
   display: block;
   border-radius: 12px;
 }
-
 
 .card__content {
   display: flex;
@@ -39,7 +36,4 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
-}
-
-.card__like-button-icon {
 }

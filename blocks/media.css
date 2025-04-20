@@ -56,10 +56,6 @@
     margin: 0 auto;
   }
 
-  .card__content {
-
-  }
-
   .card:first-of-type {
     padding-top: 20px;
   }
