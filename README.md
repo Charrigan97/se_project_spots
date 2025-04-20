@@ -1,21 +1,80 @@
-# Project 3: Around The U.S.
+# SPOTS — SPRINT 3
 
-### Overview  
+This is the **Sprint 3 project** for the TripleTen Software Engineering bootcamp.  
+Built with blood, sweat, and approximately 3,000 browser refreshes.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+## What This Is
+
+- A responsive webpage for sharing spots, memories, and maybe regrets.
+- A playground for Flexbox, Grid, media queries, and BEM naming conventions.
+- Fully functional on desktop, tablet, and mobile
+
+## Tech Stack
+
+- HTML5
+- CSS3
+- Flexbox & Grid tag-team combo
+- Media queries (so many)
+- Normalize.css for cross-browser peacekeeping
+- Git
+
+## 📁 File Dumpster Dive
+
+```
+se_project_spots/
+├── blocks/            # Modular BEM CSS — I did this right, I swear
+├── images/            # Pics
+├── pages/
+│   └── index.css      # Local styles that control everything
+├── vendor/
+│   ├── fonts.css      # Font
+│   ├── normalize.css  # Browser voodoo
+│   └── fonts/         #
+├── index.html         # Markup
+├── .gitignore         #
+├── .prettierignore    #
+├── favicon.ico        #
+└── DEADME.md          # This file.
+```
+
+## Layout
+
+- Cards use **CSS Grid**:
+  ```css
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  ```
+- Layout shifts:
+  - 3 columns on desktop
+  - 2 on tablet
+  - 1 on mobile
+- All made possible by lovingly-crafted media queries.
+
+## Semantics
+
+I used tags like:
+
+- `<header>`, `<main>`, `<section>`, `<footer>`  
+  Because accessibility matters — and so does passing this sprint.
+
+## 👾 BEM, Baby
+
+- Blocks like `.profile`
+- Elements like `.profile__avatar`
+- Modifiers like `.profile__button_active`
+
+Each block has its own CSS file. It's clean & modular.
+
+## 🔡 Fonts
+
+- Main: Poppins
+- Fallbacks: Arial, sans-serif
+- Loaded locally with `@font-face`
+
+## What I Learned
+
+> **Biggest challenge?**  
+> Making this site _actually_ match the Figma design.  
+> Adaptive layouts were trial and error, rinse and repeat.  
+> But I came out feeling like I learned a lot.
+
+I can now make your site bend to any screen size or break trying.
