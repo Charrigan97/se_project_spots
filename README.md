@@ -1,5 +1,10 @@
 # SPOTS — SPRINT 3
 
+## Video Presentation:
+
+[Click here to view the presentation]
+(https://drive.google.com/file/d/1c-iTre9bEQF6yC8eti_WfKScmJq0HyvO/view?usp=sharing)
+
 This is the **Sprint 3 project** for the TripleTen Software Engineering bootcamp.  
 Built with blood, sweat, and approximately 3,000 browser refreshes.
 
