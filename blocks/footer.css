@@ -1,5 +1,5 @@
 .footer {
-  padding: 0;
+  padding: 60px 0;
   text-align: center;
   display: flex;
 }
@@ -12,4 +12,10 @@
 .footer__content {
   opacity: 0.7;
   margin: 0;
+}
+
+@media screen and (max-width: 627px) {
+  .footer {
+    margin: 0 auto;
+  }
 }

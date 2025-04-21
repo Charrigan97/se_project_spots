@@ -3,3 +3,10 @@
   flex-shrink: 0;
   padding: 0 20px 20px;
 }
+
+@media screen and (max-width: 627px) {
+  .content {
+    max-width: 100%;
+    padding: 0 16px
+  }
+}

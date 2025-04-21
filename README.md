@@ -1,5 +1,13 @@
 # SPOTS — SPRINT 3
 
+## Live Site:
+
+https://charrigan97.github.io/se_project_spots/
+
+## Sprint 3 folder (includes Video Presentation and screenshots of any known remaining bugs):
+
+https://drive.google.com/drive/folders/162VEjhbelqDvT-KOhDPLBqXcd09GX0u2?usp=sharing
+
 ## Video Presentation:
 
 [Click here to view the presentation]
