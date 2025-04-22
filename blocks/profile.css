@@ -32,7 +32,7 @@
 .profile__description {
   margin: 0;
   font-size: 16px;
-  font-weight: inherit;
+  font-weight: 500;
   line-height: 1;
   opacity: 70%;
   display: -webkit-box;
@@ -44,6 +44,7 @@
 }
 
 .profile__edit-btn {
+  color: #212121;
   all: unset;
   margin-top: auto;
   opacity: 70%;
@@ -67,7 +68,7 @@
   align-items: center;
   gap: 8px;
   background-color: #212121;
-  color: #fff;
+  color: #fcf5e5;
   font-size: 16px;
   font-weight: 500;
   border-radius: 8px;
@@ -81,7 +82,7 @@
 }
 
 .profile__add-btn:hover {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 627px) {

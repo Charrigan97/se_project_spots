@@ -6,7 +6,7 @@
 .cards__list {
   list-style-type: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 0;
   display: grid;
   gap: 40px 20px;
   justify-content: center;
@@ -15,11 +15,12 @@
 
 @media screen and (max-width: 627px) {
   .cards {
-    padding: 0;
+    padding: 20px 0;
     max-width: 320px;
   }
 
   .cards__list {
+    row-gap: 20px;
     margin: 0;
     max-width: 320px;
   }
