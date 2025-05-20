@@ -9,10 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .modal__title {
   margin: 0 0 32px;
+  font-weight: 500;
+  font-size: 32px;
 }
 
 .modal__form {
@@ -20,8 +23,26 @@
   flex-direction: column;
 }
 
+.modal__label {
+  margin: 0 0 32px 0;
+  font-size: 16px;
+}
+
 .modal__input {
   display: block;
+  font-size: 20px;
+  max-width: 630px;
+  width: 100%;
+  max-height: 52px;
+  height: 100%;
+  border: 1px solid #21212166;
+  border-radius: 8px;
+  margin: 8px 0 0;
+  padding: 16px 0 16px 12px;
+}
+
+.modal__input::placeholder {
+  color: #2121214D
 }
 
 .modal_is-opened {
@@ -35,12 +56,23 @@
   background-color: white;
   padding: 32px 50px;
   position: relative;
+  gap: 32px;
 }
 
 .modal__close-btn {
+  border: none;
   position: absolute;
   top: 32px;
   right: 50px;
   height: 40px;
   width: 40px;
+  padding: 0;
+}
+
+.modal__submit-btn {
+  border: none;
+  max-width: 156px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
