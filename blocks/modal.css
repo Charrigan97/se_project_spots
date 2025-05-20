@@ -6,6 +6,22 @@
   right: 0;
   bottom: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__input {
+  display: block;
 }
 
 .modal_is-opened {
@@ -13,8 +29,18 @@
 }
 
 .modal__container {
-  min-width: 730px;
+  max-width: 730px;
   width: 100%;
   border-radius: 8px;
   background-color: white;
+  padding: 32px 50px;
+  position: relative;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  height: 40px;
+  width: 40px;
 }
