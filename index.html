@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spots</title>
-    <meta name="description" content="Spots Website" />
-    <meta name="keywords" content="spots, tripleten" />
-    <meta name="author" content="Chris Harrigan" />
-    <link rel="stylesheet" href="pages/index.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="description" content="Spots Website">
+    <meta name="keywords" content="spots, tripleten">
+    <meta name="author" content="Chris Harrigan">
+    <link rel="stylesheet" href="pages/index.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo.svg" alt="Spot logo" class="header__logo" />
+        <img src="./images/logo.svg" alt="Spot logo" class="header__logo">
       </header>
 
       <main class="content">
         <section class="profile page__section">
-          <img
-            src="./images/avatar.jpg"
-            alt="Bessie Coleman"
-            class="profile__avatar"
-          />
+          <img src="./images/avatar.jpg" alt="Bessie Coleman" class="profile__avatar">
           <div class="profile__column">
             <h1 class="profile__name">
               Bessie Coleman I have a structured settlement and I need cash now!
@@ -34,80 +30,54 @@
               Seveeen-Cassssssh Noooooow!
             </p>
             <button class="profile__edit-btn" type="button">
-              <img src="./images/pencil.svg" alt="edit icon" />
+              <img src="./images/pencil.svg" alt="edit icon">
               Edit Profile
             </button>
           </div>
           <button class="profile__add-btn" type="button">
-            <img src="./images/plus.svg" alt="plus icon" />New Post
+            <img src="./images/plus.svg" alt="plus icon">New Post
           </button>
         </section>
 
         <section class="cards page__section">
           <ul class="cards__list">
             <li class="card">
-              <img
-                src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="Bal Thorens"
-                class="card__image"
-              />
+              <img src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="Bal Thorens" class="card__image">
               <div class="card__content">
                 <h2 class="card__title">Val Thorens</h2>
                 <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
-              <img
-                src="./images/2-photo-by-ceiline-from-pexels.jpg"
-                alt="Bal Thorens"
-                class="card__image"
-              />
+              <img src="./images/2-photo-by-ceiline-from-pexels.jpg" alt="Bal Thorens" class="card__image">
               <div class="card__content">
                 <h2 class="card__title">Restaurant terrace</h2>
                 <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
-              <img
-                src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
-                alt="Bal Thorens"
-                class="card__image"
-              />
+              <img src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg" alt="Bal Thorens" class="card__image">
               <div class="card__content">
                 <h2 class="card__title">An outdoor cafe</h2>
                 <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
-              <img
-                src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
-                alt="Bal Thorens"
-                class="card__image"
-              />
+              <img src="./images/4-photo-by-maurice-laschet-from-pexels.jpg" alt="Bal Thorens" class="card__image">
               <div class="card__content">
-                <h2 class="card__title">
-                  A very long bridge, over the forest...
-                </h2>
+                <h2 class="card__title">A very long bridge, over the forest...</h2>
                 <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
-              <img
-                src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
-                alt="Bal Thorens"
-                class="card__image"
-              />
+              <img src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg" alt="Bal Thorens" class="card__image">
               <div class="card__content">
                 <h2 class="card__title">Tunnel with morning light</h2>
                 <button type="button" class="card__like-button"></button>
               </div>
             </li>
             <li class="card">
-              <img
-                src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="Bal Thorens"
-                class="card__image"
-              />
+              <img src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg" alt="Bal Thorens" class="card__image">
               <div class="card__content">
                 <h2 class="card__title">Mountain house</h2>
                 <button type="button" class="card__like-button"></button>
@@ -118,9 +88,7 @@
       </main>
 
       <footer class="footer">
-        <p class="footer__content">
-          &copy; 2025 "Spots" by Harrigan Software Solutions
-        </p>
+        <p class="footer__content">&copy; 2025 "Spots" by Harrigan Software Solutions</p>
       </footer>
 
       <div class="modal modal_is-opened">
@@ -128,26 +96,13 @@
           <button type="button" class="modal__close-btn"><img src="./images/close-button.svg" alt="close icon"></button>
           <h2 class="modal__title">Edit Profile</h2>
           <form class="modal__form">
-            <label for="profile-name-input" class="modal__label">
-              Name
-              <input
-                id="profile-name-input"
-                type="text"
-                class="modal__input"
-                placeholder="Type your name"
-              />
-            </label>
-            <label for="profile-desription-input" class="modal__label">
-              Description
-              <input
-                id="profile-description-input"
-                type="text"
-                class="modal__input"
-                placeholder="Describe yourself"
-              />
-            </label>
+            <label class="modal__label" for="profile-name-input">Name</label>
+            <input id="profile-name-input" type="text" class="modal__input" placeholder="Type your name">
+            <label class="modal__label" for="profile-description-input">Description</label>
+            <input id="profile-description-input" type="text" class="modal__input" placeholder="Describe yourself">
             <button type="submit" class="modal__submit-btn">
-              <img src="./images/save-button.png" alt="save button"></button>
+              <img src="./images/save-button.png" alt="save button">
+            </button>
           </form>
         </div>
       </div>
@@ -157,26 +112,13 @@
           <button type="button" class="modal__close-btn"><img src="./images/close-button.svg" alt="close icon"></button>
           <h2 class="modal__title">New post</h2>
           <form class="modal__form">
-            <label for="card-image-input" class="modal__label">
-              Image link
-              <input
-                id="card-image-input"
-                type="url"
-                class="modal__input"
-                placeholder="Paste a link to the picture"
-              />
-            </label>
-            <label for="profile-caption-input" class="modal__label">
-              Caption
-              <input
-                id="profile-caption-input"
-                type="text"
-                class="modal__input"
-                placeholder="Type your caption"
-              />
-            </label>
+            <label class="modal__label" for="card-image-input">Image link</label>
+            <input id="card-image-input" type="url" class="modal__input" placeholder="Paste a link to the picture">
+            <label class="modal__label" for="profile-caption-input">Caption</label>
+            <input id="profile-caption-input" type="text" class="modal__input" placeholder="Type your caption">
             <button type="submit" class="modal__submit-btn">
-              <img src="./images/save-button.png" alt="save button"></button>
+              <img src="./images/save-button.png" alt="save button">
+            </button>
           </form>
         </div>
       </div>
